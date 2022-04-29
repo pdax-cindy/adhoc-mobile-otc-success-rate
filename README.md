@@ -36,6 +36,6 @@ Running Jupyter Notebook
 
 Re-runing notebook with new source file.
 
-- Save your downloaded source file on the data/ folder and rename the filename variable in the python notebook.
+- Save your downloaded source file on the {project_name}/data/ folder on your local and rename the filename variable in the python notebook.
 
 
