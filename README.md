@@ -33,9 +33,17 @@ Running Jupyter Notebook
 
 
 
+Upload source file:
 
-Re-runing notebook with new source file.
+- Download source file (e.g. OTC data from Admin Portal), rename and save it under {project_name}/data folder on your local.
 
-- Save your downloaded source file on the {project_name}/data/ folder on your local and rename the 'filename' variable in the python notebook.
+- Set filename variable on your notebook. Indicate the source folder location and filename. (e.g. filename = 'data/OTC_Trade_Ledger_04132022.csv’) 
+
+
+Generate output file:
+
+- You can save the output file of the dataframe using this script: {df_name}.to_csv(r'filename.csv', index = False
+
+- Output files will be saved under the {project_name} folder on your local.
 
 
