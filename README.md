@@ -44,7 +44,7 @@ Generate output file:
 
 - You can save the output file of the dataframe using this script:
 
- {df_name}.to_csv(r'filename.csv', index = False
+     {df_name}.to_csv(r'filename.csv', index = False
 
 - Remove the '#' to uncomment the line of code to save the output files.
 
